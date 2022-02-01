@@ -1,5 +1,6 @@
 module.exports = function reverse (n) {
   const reversed = reverse(789);
+  assert.equal(reversed, 789);
   console.log(reverse);
 }
 

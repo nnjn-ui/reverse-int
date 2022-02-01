@@ -1,5 +1,5 @@
 module.exports = function reverse (n) {
-  function reverse() {
+  function reverse(num) {
       let rev_num = 0;
       while(num > 0)
       {

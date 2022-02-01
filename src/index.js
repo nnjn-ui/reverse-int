@@ -1,4 +1,4 @@
-module.exports = function reverse (n) {
+module.exports = function reverse () {
     let num = 5678
   function reverse(num) {
       

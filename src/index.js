@@ -1,3 +1,6 @@
-module.exports = function reverse (n) {
-  
+export default function reverse (n) {
+  const reversed = reversed(145)
+  console.log(reversed);
 }
+
+

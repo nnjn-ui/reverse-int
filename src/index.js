@@ -1,12 +1,18 @@
-
 module.exports = function reverse () {
-  const assert = require('assert');
 
-  it('Should return 345 when 543 given', () => {
-    const reverse = reverse(543);
-    return(reverse)
-    assert.equal(reverse, 345);
-  });
+  let num = 4562;
+    
+    function reversDigits(num) {
+        let rev_num = 0;
+        while(num > 0)
+        {
+            rev_num = rev_num * 10 + num % 10;
+            num = Math.floor(num / 10);
+        }
+        return rev_num;
+    }
 
 }
 
+
+    

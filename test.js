@@ -2,8 +2,6 @@ const assert = require('assert');
 
 const reverse = require('./src');
 
-
-
 it('Should return 261 when 162 given', () => {
   const reversed = reverse(162);
   return(reversed)

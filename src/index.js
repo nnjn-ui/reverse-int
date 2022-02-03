@@ -1,17 +1,17 @@
 module.exports = function reverse () {
-
-}
-
-let num = 4562;
-    
-function reversDigits(num) {
-    let rev_num = 0;
-    while(num > 0)
-    {
-        rev_num = rev_num * 10 + num % 10;
-        num = Math.floor(num / 10);
+    function num1 (number){ 
+        var stringfromNumber = (number + '').split(''); 
+        for(var i = 0; i < stringfromNumber.length / 2; i++) { 
+            var temp = '';//1 
+            temp = stringfromNumber[i]; 
+            stringfromNumber[i] = stringfromNumber[stringfromNumber.length - 1 - i];//6 
+            stringfromNumber[stringfromNumber.length - 1 - i] = temp; 
+        } 
+     
+        return stringfromNumber.join(''); 
     }
-    return rev_num;
+
 }
+
 
     

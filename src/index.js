@@ -10,8 +10,11 @@ module.exports = function reverse () {
      
         return stringfromNumber.join(''); 
     }
+    num1();
 
 }
+
+
 
 
     

@@ -17,7 +17,7 @@ module.exports = function reverse () {
 }
 
 
-num1(123);
+
 
 
 

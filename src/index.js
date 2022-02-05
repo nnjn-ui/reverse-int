@@ -1,5 +1,5 @@
-module.exports = function reverse () {
-    function num1 (number){ 
+module.exports = function reverse (number) {
+     
         var stringfromNumber = (number + '').split(''); 
         for(var i = 0; i < stringfromNumber.length / 2; i++) { 
             var temp = '';//1 
@@ -11,10 +11,11 @@ module.exports = function reverse () {
         return stringfromNumber.join(''); 
     
         
-    }
     
+        stringfromNumber();
 
 }
+
 
 
 

@@ -5,9 +5,9 @@ module.exports = function reverse (n) {
         if (n < 0) {
             var temp = '';
         } else {
-            
+            var temp = '';
             stringfromNumber[i] = stringfromNumber[stringfromNumber.length - 1]
-            stringfromNumber[stringfromNumber.length - 1]; 
+            stringfromNumber[stringfromNumber.length - 1] = temp; 
         }
         for(var i = 0; i < stringfromNumber.length / 2; i++) { 
            

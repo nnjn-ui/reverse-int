@@ -12,7 +12,7 @@ module.exports = function reverse (number) {
     
         
     
-        stringfromNumber();
+        stringfromNumber(123);
 
 }
 

@@ -9,10 +9,16 @@ module.exports = function reverse () {
         } 
      
         return stringfromNumber.join(''); 
+    
+        
     }
-    num1();
+    
 
 }
+
+
+num1(123);
+
 
 
 

@@ -6,7 +6,7 @@ module.exports = function reverse (n) {
             var temp = '';
         } else {
             var temp = '';
-            stringfromNumber[i] = stringfromNumber[stringfromNumber.length - 1]
+            stringfromNumber[i] = stringfromNumber[stringfromNumber.length - 1 - i];
             stringfromNumber[stringfromNumber.length - 1] = temp; 
         }
         for(var i = 0; i < stringfromNumber.length / 2; i++) { 
